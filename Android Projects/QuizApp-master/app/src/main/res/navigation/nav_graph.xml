@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="io.itsydv.quizapp.feed.FeedFragment"
+        android:label="Quiz App"
+        tools:layout="@layout/fragment_feed">
+
+        <action
+            android:id="@+id/feedFragment_to_QuestionFragment"
+            app:destination="@id/questionFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="io.itsydv.quizapp.questionView.QuestionFragment"
+        android:label="Question Fragment"
+        tools:layout="@layout/fragment_question">
+
+        <argument
+            android:name="questionNumber"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_questionFragment_forward"
+            app:destination="@id/questionFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"/>
+        <action
+            android:id="@+id/action_questionFragment_to_feedFragment"
+            app:destination="@id/feedFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/feedFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_questionFragment_backward"
+            app:destination="@id/questionFragment"
+            app:enterAnim="@anim/slide_out"
+            app:exitAnim="@anim/fade_in"/>
+        <argument
+            android:name="streak"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

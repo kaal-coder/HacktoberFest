@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="logo">Logo</string>
+    <string name="marks">Marks</string>
+    <string name="showing">Showing</string>
+    <string name="noting_found">Noting Found</string>
+    <string name="oops_nothing_found">Oops! We couldn’t find any question with the selected filters. Please try clearing them.</string>
+    <string name="clear_filter">Clear Filter</string>
+    <string name="back_button">Back Button</string>
+    <string name="solution">Solution:</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="previous_question">Previous Question</string>
+    <string name="next_question">Next Question</string>
+    <string name="gravitation">Gravitation</string>
+    <string name="number_of_questions_and_chapter_feedback">%1$d Qs | Low Input High Output Chapter</string>
+    <string name="you_got_it_right">You got it right!</string>
+    <string name="streak">Streak</string>
+    <string name="you_are_on_a_streak">You are on a streak!</string>
+    <string name="view_solution">View Solution</string>
+    <string name="streak_count">%1$d answer in a row.</string>
+</resources>

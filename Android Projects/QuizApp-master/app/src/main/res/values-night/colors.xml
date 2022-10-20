@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#009CE3</color>
+    <color name="textWhite">#F2ECECEC</color>
+    <color name="textColor">#777777</color>
+    <color name="textColorOpposite">#E3E3E3</color>
+    <color name="cardViewTextColor">#E3E3E3</color>
+    <color name="theme">#141414</color>
+    <color name="theme_inverse">#FFFFFF</color>
+    <color name="success">#D940DF75</color>
+    <color name="danger">#CCE03131</color>
+    <color name="shimmerLite">#F2DDDDDD</color>
+    <color name="shimmerDark">#636363</color>
+</resources>
