@@ -1,0 +1,85 @@
+body {
+    padding: 50px;
+    background-image: url('background-home-desktop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 5vw;
+    border-radius: 50%;
+}
+.navline {
+    position: relative;
+    border: solid grey;
+    border-width: 3px 0px 0px 0;
+    width: 51%;
+    top: -90px;
+    left: -190px;
+    margin-bottom: 15%;
+}
+
+.nav {
+    backdrop-filter: blur(10px);
+    height: 50px;
+    width: 450px;
+    position: relative;
+    left: 60%;
+    top: -40px;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.nav a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1,
+h3 {
+    font-family: 'Roboto Slab', serif;
+    word-spacing: 5;
+}
+
+h3,
+p {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: monospace;
+    font-size: 13.5px;
+    line-height: 2;
+}
+
+.content {
+    margin-left: 9rem;
+    color: whitesmoke;
+    float: left;
+    width: 25vw;
+}
+
+.explorebtn {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 15rem;
+    font-size: xx-large;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.explorebtn a {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+}
+
+.explorebtn:hover{
+    box-shadow: 0 0 1000px rgba(0, 0, 0,1);
+}
