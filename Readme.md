@@ -2,4 +2,4 @@
 
 ## Working Demo
 
-![Screenshot](https://user-images.githubusercontent.com/88226411/196895013-829451a4-35c7-4a0e-886f-46fd499f6204.png)
+![Screenshot](https://user-images.githubusercontent.com/88226411/196895515-5a34dc6e-e70f-4809-9b59-c0347348ae45.png)
