@@ -1,0 +1,98 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url('wallhaven-zm3emy.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container {
+    margin: 0% 10%;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.flexy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.box1 {
+    width: 50%;
+}
+
+.box1 img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    border-radius: 15% 0% 15%;
+}
+
+.smargin {
+    margin-right: 50px;
+}
+
+.box2 {
+        margin: 0 0 40px 40px;
+}
+
+.form-group {
+    margin-bottom: 7%;
+}
+
+h4,
+h1 {
+    font-weight: 600;
+}
+
+h4,
+p {
+    margin: 0;
+}
+
+a {
+    padding: 5px;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+input {
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    transition-duration: 0.3s;
+}
+
+input:focus {
+    border-bottom: 3px solid red;
+    background-color: bisque;
+}
+
+h1 {
+    color: firebrick;
+}
+
+button {
+    color: aliceblue;
+    height: 30px;
+    width: 110px;
+    background-color: firebrick;
+    margin-left: 20%;
+    border: none;
+    border-radius: 20px;
+}
+
+.contacts a i {
+    font-size: large;
+    color: blue;
+}
