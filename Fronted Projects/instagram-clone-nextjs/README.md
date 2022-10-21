@@ -1,4 +1,4 @@
-# Code Chef SRM RMP Linktree
+# Instagram Clone
 
 **To View the Original Github:** https://github.com/chanakyha/instagram-clone-nextjs
 **To View the Website:** https://instagram-clone-nextjs-chanakyha.vercel.app/
