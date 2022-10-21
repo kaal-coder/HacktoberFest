@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  
+  font-family: 'Inter var', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap");
+}
+
